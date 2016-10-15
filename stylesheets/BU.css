@@ -1,0 +1,46 @@
+body{
+    background:url("../imgs/back.jpg");
+    font-family: Calibri,Arial;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background:url("../imgs/headerBG.png");
+    height:75px;
+}
+
+#logo img{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#header li{
+    list-style-type: none;
+    float: left;
+    font-size: 15px;
+}
+
+#header li a{
+    color:grey;
+    text-decoration: none;
+    margin:13px;
+    padding: 10px;
+}
+
+#header ul{
+    float: right;
+    margin-top: -35px;
+}
+
+#header li a:hover
+{
+    background-color: #FFBB42;
+    color: white;
+    border-radius:5px;
+}
+
+#mainBody{
+    background-color: pink;
+    color:pink;
+}
